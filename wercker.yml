@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.14"
-        theme: herring-cove
+        theme: and-wells
         flags: --buildDrafts=false
 
 deploy:
@@ -13,4 +13,4 @@ deploy:
         key_secret: $SECRET
         bucket_url: $URL
         source_dir: public/
-        opts: --add-header=Cache-Control:max-age=604800
+        opts: --acl-public --add-header=Cache-Control:max-age=604800
