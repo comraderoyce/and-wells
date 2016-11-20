@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build@1.13.1:
         version: "0.15"
-        theme: tachyons
+        theme: and-wells
         config: config.toml
         flags: --buildDrafts
 
