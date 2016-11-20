@@ -1,0 +1,9 @@
+<li class="mb4">
+
+<h2 class="black f2 mt0 mb2">
+	<a class="black" href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a>
+</h2>
+<p class="silver mt0">{{ .Date.Format "January 2, 2006" }}</p>
+
+{{ .Summary}}
+</li>

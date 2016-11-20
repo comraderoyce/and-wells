@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+<body lang="en" class="bg-near-white fw1">
+
+<div class="center mw7 pv5 ph3">
+  <h1 class="w-100 dib f-headline fw1 link green mb2"><a href="/" class="blue dim no-underline i"></a>{{ .Title}} </h1>  
+
+  <main class="pr5">
+            {{ range .Data.Pages }}
+                <ul class="list pa0 ma0">
+                        {{ .Render "work-item"}}
+ 
+                </ul>
+            {{ end }}
+  </main>          
+</div>
+</main>
+
+{{ partial "footer.html" . }}

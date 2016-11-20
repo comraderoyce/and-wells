@@ -1,0 +1,8 @@
+baseurl = "http://192.168.1.136:8080/"
+title = "Website Playbook"
+languageCode = "en-us"
+theme = "hyde"
+
+[params]
+  themeColor = "theme-base-08"
+  description = "A playbook for great web design and development projects, by Comrade."

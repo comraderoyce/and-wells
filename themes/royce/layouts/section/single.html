@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+  	<div class="center mw7 pv5 ph3">
+		<h1 class="w-100 dib f-headline fw1 link red mb2"><a href="/" class="blue dim no-underline i">_</a> {{ .Title}}</h1>	
+		<main class="pr5">
+    	
+    		{{ .Content }}
+	
+		    <h2 class="fw1">{{ .Date.Format "January 2, 2006" }}</h2>
+	
+		</main>
+	</div>
+
+{{ partial "footer.html" . }}
