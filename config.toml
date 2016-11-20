@@ -1,8 +1,10 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://roycewells.io.s3-website-us-west-2.amazonaws.com/"
 languageCode = "en-us"
-title = "&"
+title = "Royce Wells"
+PluralizeListTitles = false
+theme = "and-wells"
 
 [params]
 
-	tagline = "An old-fashioned agency for a digital world."
+	tagline = "Creating digital products."
 	description = "An old-fashioned agency for a digital world."

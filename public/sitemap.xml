@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://roycewells.io.s3-website-us-west-2.amazonaws.com/</loc>
+    <lastmod>2016-11-18T20:21:48-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://roycewells.io.s3-website-us-west-2.amazonaws.com/contact/contact/</loc>
+    <lastmod>2016-11-18T20:21:48-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://roycewells.io.s3-website-us-west-2.amazonaws.com/work/one/</loc>
+    <lastmod>2016-11-16T22:34:26-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://roycewells.io.s3-website-us-west-2.amazonaws.com/posts/first/</loc>
+    <lastmod>2016-11-15T22:03:54-08:00</lastmod>
+  </url>
+  
+</urlset>
