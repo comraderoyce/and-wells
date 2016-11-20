@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.14"
-        theme: and-wells
+        theme: tachyons
         flags: --buildDrafts=true
 
 deploy:
