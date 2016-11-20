@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build:
         version: "0.14"
         theme: and-wells
-        flags: --buildDrafts=false
+        flags: --buildDrafts=true
 
 deploy:
   steps:
