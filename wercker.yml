@@ -1,7 +1,19 @@
-box: debian
 build:
   steps:
+    - npm-install
+    - hgen/gulp
     - arjen/hugo-build:
         version: "0.14"
-        theme: herring-cove
         flags: --buildDrafts=true
+    - samueldebruyn/minify:
+        css: false
+        js: false
+
+deploy:
+  steps:
+    - s3sync:
+        key_id: $KEY
+        key_secret: $SECRET
+        bucket_url: $URL
+        source_dir: public/
+        opts: --add-header=Cache-Control:max-age=604800
