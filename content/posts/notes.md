@@ -1,6 +1,5 @@
 +++
 date = "2016-11-19"
-draft = true
 title = "Notes on Product"
 author = "Royce"
 
