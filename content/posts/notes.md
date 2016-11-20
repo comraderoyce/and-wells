@@ -19,5 +19,5 @@ Value is derived by a user taking advantage of a feature to complete a task. The
 
 ## Users and Value
 
-Until the user accesses is a feature of your product, no value is created. A sign saying "ATM coming soon" is not helpful to someone that needs cash. 
+Until the user accesses is a feature of your product, no value is created. A sign saying "ATM coming soon" is not helpful to someone that needs cash. Since no value is realized until a feature is in use, shipping features should be a top priority.
 
