@@ -15,7 +15,7 @@ Minimum unit for a product is a feature that delivers value. Some products have 
 
 ## Value
 
-Value is derived by a user taking advantage of a feature to complete a task. These tasks can be simple or complex. Mature products allow a diverse set of tasks within the product framework, allowing ther user to derive value from the product. For example, ATMs are a feature that allows a retail banking customer to access petty cash. 
+Value is derived by a user taking advantage of a feature to complete a task, completing [a job to be done](https://experiencinginformation.wordpress.com/2016/06/21/find-opportunities-with-jobs-to-be-done/). These tasks can be simple or complex. Mature products allow a diverse set of tasks within the product framework, allowing ther user to derive value from the product. For example, ATMs are a feature that allows a retail banking customer to access petty cash. 
 
 ## Users and Value
 

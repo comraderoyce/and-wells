@@ -1,10 +1,52 @@
     <div class="center mw7 ph3">
 
       {{ if .IsHome }}
-        <h3 class="w-100 dib f3 fw1 link gray">See our <a class="no-underline green" href="/work">work</a>, read our <a class="no-underline red" href="/posts">perspectives</a>, or <a class="no-underline orange" href="/contact">contact</a> us.</h3>
+        <h3 class="w-100 dib f3 fw1 link gray">See my <a class="no-underline green" href="/work">work</a>, read my <a class="no-underline red" href="/posts">writing</a>, or <a class="no-underline orange" href="/contact">contact</a> me.</h3>
       {{ else }}  
-        <h3 class="w-100 dib f3 fw1 link gray"><a class="blue no-underline" href="/">Royce Wells. </a>See our <a class="no-underline green" href="/work">work</a>, read our <a class="no-underline red" href="/posts">perspectives</a>, or <a class="no-underline orange" href="/contact">contact</a> us.</h3>
+        <h3 class="w-100 dib f3 fw1 link gray"><a class="blue no-underline" href="/">Royce Wells. </a>See my <a class="no-underline green" href="/work">work</a>, read my <a class="no-underline red" href="/posts">writing</a>, or <a class="no-underline orange" href="/contact">contact</a> me.</h3>
       {{ end }}
     </div>
+
+    <!-- <script>
+
+
+    var dataset = [];
+    var midWidth = window.innerWidth/2;
+    var midHeight = window.innerHeight/2;
+    
+    var maxWidthDev = window.innerWidth;
+    var minWidthDev = 0;
+    var maxHeightDev = window.innerHeight;
+    var minHeightDev = 0;
+    
+    for (var i = 0; i < 100; i++) {            
+      var x = Math.floor((Math.random()*(maxWidthDev - minWidthDev + 1))) + minWidthDev;
+      var y = Math.floor((Math.random()*(maxHeightDev - minHeightDev + 1))) + minHeightDev;  
+      dataset.push({"x":x, "y":y});
+
+
+	};
+
+	var svg = d3.select("body").append("svg")
+		.attr('width', maxWidthDev)
+		.attr('height', maxHeightDev);
+
+	var line = d3.svg.line()
+  		.x(function(d) { return d.x; })
+  		.y(function(d) { return d.y; })
+  		.interpolate('step-after');	
+
+
+    var path = svg.append("path")
+		.datum(dataset)
+		.attr({
+      	"d": line,
+		"stroke": "white",
+        "stroke-width": 1,
+        "stroke-linecap": "butt",
+		"fill": "none"
+    		})
+
+  </script> -->
   </body>
 </html>

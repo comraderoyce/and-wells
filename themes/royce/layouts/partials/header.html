@@ -8,8 +8,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css"/>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <style>
         body{ font-family:'PT Sans', sans-serif; }
+        svg { 
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity: .8;
+        }
+        a {
+            text-decoration: none;
+            color: #357edd;
+        }
+        code {
+            padding: 2px;
+            background-color: #eee;
+            font-size: 1rem;
+        }
+        blockquote {
+                border-left: 10px solid lightgray;
+                padding-left: 5px;
+                margin-left: 0px;
+                font-style: italic;
+        }
     </style>
   </head>
   <body class="garamond f4 bg-near-white">
