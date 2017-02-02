@@ -1,8 +1,10 @@
 +++
 date = "2016-11-16T22:34:26-08:00"
 draft = true
-title = "one"
+title = "HamiltonZanze.com"
 image = "http://placehold.it/350x350"
 +++
 
-Here's the first big project.
+Real estate investment firm website.  
+
+<!--more--> 
