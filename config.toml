@@ -1,4 +1,4 @@
-baseurl = "http://roycewells.io.s3-website-us-west-2.amazonaws.com/"
+baseurl = "roycewells.io"
 languageCode = "en-us"
 title = "Royce Wells"
 PluralizeListTitles = false
