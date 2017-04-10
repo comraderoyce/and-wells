@@ -1,4 +1,4 @@
-baseurl = "roycewells.io"
+baseurl = "http://www.roycewells.io"
 languageCode = "en-us"
 title = "Royce Wells"
 PluralizeListTitles = false
