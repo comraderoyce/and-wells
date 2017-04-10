@@ -1,6 +1,3 @@
-
-
-
 +++
 date = "2016-05-07"
 title = "Mission Based Design at Comrade"
@@ -8,7 +5,7 @@ author = "Royce"
 
 +++
 
-One of our key principles at [**Comrade](http://comradeagency.com/)** is doing great work for great clients. Each year we work with a few non-profit organizations that are doing amazing things to help improve our world.
+One of our key principles at [Comrade](http://comradeagency.com/) is doing great work for great clients. Each year we work with a few non-profit organizations that are doing amazing things to help improve our world.
 <!--more--> 
 
 The audiences, challenges and objectives of a website and brand experience are unique in the non-profit space. Instead of trying to *sell *something to prospective customers, they’re trying to *persuade* a constituency to do something that will change the world for the better.
