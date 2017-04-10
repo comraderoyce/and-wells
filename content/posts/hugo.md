@@ -75,12 +75,11 @@ $ git push -u origin master
 
 ### S3
 
-Sign up and then sign in to an AWS account. Spin up a new S3 instance. Make a new bucket for your site and then turn on Static Web Hosting in the properties menu. 
+Sign up and then sign in to an AWS account. Spin up a new S3 instance. Make a new bucket for your site (the bucket name should be the same as the domain name you want to use including "www") and then turn on Static Web Hosting in the properties menu. Copy the endpoint, and point your domain to your new S3 bucket. 
 
 You'll also need to get some keys to work through the deploy with Wercker. You'll find those in Security Credentials. 
 
 Create a new Access Key. Save your key info to a safe place as Amazon will only show it to you once. 
-
 
 
 ### Wercker
@@ -131,6 +130,7 @@ Wercker has changed their UI since a lot of these were written, but I was able t
 - [A continuous deployment workflow for Hugo with Wercker and S3](http://danbahrami.io/articles/wercker-s3-workflow-hugo-deploy/)
 - [Deploy Hugo Files to S3](https://lustforge.com/2016/02/28/deploy-hugo-files-to-s3/)
 - [How anyone in the world can create cheap static sites.](http://katsenblog.com/post/85144002449/how-anyone-in-the-world-can-create-cheap-static)
+- [Pointing a Domain to an Amazon S3 Bucket](http://steveliles.github.io/pointing_a_domain_name_to_an_amazon_s3_bucket.html)
 
 
 
