@@ -2,7 +2,7 @@ baseurl = "http://www.roycewells.io"
 languageCode = "en-us"
 title = "Royce Wells"
 PluralizeListTitles = false
-theme = "and-wells"
+theme = "royce"
 
 [params]
 
