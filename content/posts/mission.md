@@ -10,22 +10,15 @@ One of our key principles at [Comrade](http://comradeagency.com/) is doing great
 
 The audiences, challenges and objectives of a website and brand experience are unique in the non-profit space. Instead of trying to *sell *something to prospective customers, they’re trying to *persuade* a constituency to do something that will change the world for the better.
 
-A non-profit’s focus on addressing issues and affecting change makes its design challenges unique as well. But for us, those challenges are exciting, and we call our process for creating digital experiences for non-profits “mission-based design.” In 2015 we worked with two amazing clients that come at the “better world” proposition from very different perspectives.[**KnowTheChain](https://knowthechain.org/)** is working to end forced labor in supply chains, while [**B612](https://b612foundation.org/)** is protecting the world from asteroid impacts through education, policy and action.
-
-![](https://medium2.global.ssl.fastly.net/max/2048/0*K_anbmUoaeTLmzvZ.jpg)**
+A non-profit’s focus on addressing issues and affecting change makes its design challenges unique as well. But for us, those challenges are exciting, and we call our process for creating digital experiences for non-profits “mission-based design.” In 2015 we worked with two amazing clients that come at the “better world” proposition from very different perspectives.[KnowTheChain](https://knowthechain.org/) is working to end forced labor in supply chains, while [B612](https://b612foundation.org/) is protecting the world from asteroid impacts through education, policy and action.
 
 We partnered with both to design their websites, marketing collateral and brands. In mission-based design we try to place the mission of the organization — its ethos or essence — at the center of the design process. In order to do that effectively, there are several things we need to accomplish.
-> ***In mission-based design we try to place the mission of the organization — its ethos or essence — at the center of the design process.***
 
 ## Understanding the Mission
 
 First comes understanding the challenge that an organization is trying to address. For KnowTheChain, we participated in several workshops with the non-profit’s leadership to sketch out the objectives and goals of their organization. Those sessions allowed us to refine a clear mission statement: “KnowTheChain is a resource for businesses and investors who need to understand and address forced labor abuses within their supply chains.” We used that foundational statement to inform our work going forward.
 
-![](https://medium2.global.ssl.fastly.net/max/2048/0*uKMjBJBEZG1dCis2.jpg)**
-
 The new brand identity we created for them focused on transparency — a central part of a great supply chain, meaning the ability to see into their suppliers’ operations to determine who they hire and how they treat their employees. Specific colors and image treatments became a central part of the design system, and we used people-focused images to put the human element of supply chains front and center. The design tells a concise and powerful story to drive the audience to action.
-
-![](https://medium2.global.ssl.fastly.net/max/2048/0*NURRhWbKZE0YFTyp.jpg)**
 
 ## Putting the Audience First
 
@@ -33,19 +26,13 @@ In mission-based design, putting the audience first is a big part of expressing 
 
 As a result, our brand and design work for their web site and marketing materials gave homage to the technical aspects of the B612 mission, with nods to space exploration and engineering throughout. Subtle blueprint patterns appear in the background, and file folders and mission-badge elements were incorporated throughout the design system.
 
-![](https://medium2.global.ssl.fastly.net/max/2048/0*H18wtow8Ne2ch30X.jpg)**
-
 In their 2015 Annual Progress Report, B612 spoke of the scale of their organization, using pictures of Earth photographed from space by astronaut and founder Ed Lu to connect the final frontier back to B612’s mission: protecting our home planet and the people who live here.
-
-![](https://medium2.global.ssl.fastly.net/max/2048/0*kKvhMpAN4NGx0ANX.jpg)**
 
 ## Driving to Objectives
 
 Non-profits do not have the typical business goals of driving adoption, growing user numbers, or selling product. Instead, a non-profit’s objectives are often harder to quantify, such as increasing awareness about an issue, pushing change in policy or adding to their supporter base.
 
 At Comrade, once we internalize the mission and understand the best way to reach the non-profit’s audience, the final step of mission-based design is to drive towards an organization’s objectives. For KnowTheChain, this meant designing a library of resources that allow companies to easily find materials that will help them improve their supply chains. For B612, it meant finding and presenting news and technical papers related to asteroids that inform the audience and speak to B612’s expertise as an organization.
-
-![](https://medium2.global.ssl.fastly.net/max/2048/0*pXnpHydN4duPLG81.jpg)**
 
 In both cases, the experiences we designed — from page layouts to calls to action — pushed users towards these goals. We measure the success of our design by how easily a user can reach the defined goals, whether that is supporting an organization or finding relevant content.
 
