@@ -8,9 +8,9 @@ author = "Royce"
 One of our key principles at [Comrade](http://comradeagency.com/) is doing great work for great clients. Each year we work with a few non-profit organizations that are doing amazing things to help improve our world.
 <!--more--> 
 
-The audiences, challenges and objectives of a website and brand experience are unique in the non-profit space. Instead of trying to *sell *something to prospective customers, they’re trying to *persuade* a constituency to do something that will change the world for the better.
+The audiences, challenges and objectives of a website and brand experience are unique in the non-profit space. Instead of trying to *sell* something to prospective customers, they’re trying to *persuade* a constituency to do something that will change the world for the better.
 
-A non-profit’s focus on addressing issues and affecting change makes its design challenges unique as well. But for us, those challenges are exciting, and we call our process for creating digital experiences for non-profits “mission-based design.” In 2015 we worked with two amazing clients that come at the “better world” proposition from very different perspectives.[KnowTheChain](https://knowthechain.org/) is working to end forced labor in supply chains, while [B612](https://b612foundation.org/) is protecting the world from asteroid impacts through education, policy and action.
+A non-profit’s focus on addressing issues and affecting change makes its design challenges unique as well. But for us, those challenges are exciting, and we call our process for creating digital experiences for non-profits “mission-based design.” In 2015 we worked with two amazing clients that come at the “better world” proposition from very different perspectives. [KnowTheChain](https://knowthechain.org/) is working to end forced labor in supply chains, while [B612](https://b612foundation.org/) is protecting the world from asteroid impacts through education, policy and action.
 
 We partnered with both to design their websites, marketing collateral and brands. In mission-based design we try to place the mission of the organization — its ethos or essence — at the center of the design process. In order to do that effectively, there are several things we need to accomplish.
 

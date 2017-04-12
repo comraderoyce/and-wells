@@ -1,10 +1,18 @@
 baseurl = "http://www.roycewells.io"
 languageCode = "en-us"
-title = "Royce Wells"
+title = "royce wells"
 PluralizeListTitles = false
-theme = "royce"
+theme = "hyde-royce"
 
 [params]
 
 	tagline = "Creating digital products."
-	description = "An old-fashioned agency for a digital world."
+	description = "digital products"
+
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    url = "/about"
+[[menu.main]]
+    name = "posts"
+    url = "/posts"
