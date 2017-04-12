@@ -13,6 +13,13 @@ theme = "hyde-royce"
     name = "about"
     identifier = "about"
     url = "/about"
+    weight = 1
 [[menu.main]]
-    name = "posts"
-    url = "/posts"
+    name = "contact"
+    url = "/contact"
+    weight = 3
+[[menu.main]]
+    name = "writing"
+    url = "/writing"
+    weight = 2
+
