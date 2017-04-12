@@ -6,8 +6,8 @@ theme = "hyde-royce"
 
 [params]
 
-	tagline = "Creating digital products."
-	description = "digital products"
+	tagline = "digital product"
+	description = "digital product"
 
 [[menu.main]]
     name = "about"
