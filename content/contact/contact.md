@@ -1,7 +1,9 @@
 +++
-date = "2016-11-18T20:21:48-08:00"
-draft = true
-title = "index"
+date = "2017-04-11"
+type = "page"
+title = "Contact"
 
 +++
+
+Reach me on [email](mailto:wells.royce@gmail.com) or [Twitter](http://twitter.com/thatroyce).  
 

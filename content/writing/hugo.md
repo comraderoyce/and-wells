@@ -25,7 +25,7 @@ You'll need to sign up for a few services:
 
 - [Amazon S3](https://aws.amazon.com/s3/)
 - [Wercker](http://www.wercker.com)
-- [GitHub](http://github.com) or [BitBucket](http://bitbucket.com)
+- [GitHub](http://github.com)
 
 ### Local tools
 
@@ -46,7 +46,6 @@ $ hugo new site and-wells
 $ cd and-wells
 $ mkdir themes
 $ cd themes
-
 ```
 
 Go ahead and add your themes to the themes folder.
@@ -57,7 +56,6 @@ Make a post or page, then go check everything out locally.
 $ hugo new about.md
 $ vim content/about.md
 $ hugo server --buildDrafts
-
 ```
 
 ### GitHub
@@ -70,7 +68,6 @@ $ echo "/public" >> .gitignore
 $ echo "User-agent: *\nDisallow:" > static/robots.txt
 $ git remote add origin git@github.com:comraderoyce/and-wells.git
 $ git push -u origin master
-
 ```
 
 ### S3
@@ -110,7 +107,6 @@ deploy:
         bucket_url: $URL
         source_dir: public/
         opts: --acl-public --add-header=Cache-Control:max-age=604800
-
 ```
 
 That should take care of the two steps that you will need, the build with hugo which and the deploy to S3. 
