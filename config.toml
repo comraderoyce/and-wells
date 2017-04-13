@@ -33,6 +33,10 @@ theme = "hyde-royce"
     url = "https://www.linkedin.com/in/roycewells/"
     weight = 2
 [[menu.social]]
+    name = "github"
+    url = "https://github.com/comraderoyce"
+    weight = 3
+[[menu.social]]
     name = "envelope"
     url = "mailto:wells.royce@gmail.com"
-    weight = 3
+    weight = 4
