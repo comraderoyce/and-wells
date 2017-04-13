@@ -23,3 +23,16 @@ theme = "hyde-royce"
     url = "/writing"
     weight = 2
 
+[[menu.social]]
+    name = "twitter"
+    identifier = "twitter"
+    url = "https://twitter.com/thatroyce"
+    weight = 1
+[[menu.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/roycewells/"
+    weight = 2
+[[menu.social]]
+    name = "envelope"
+    url = "mailto:wells.royce@gmail.com"
+    weight = 3

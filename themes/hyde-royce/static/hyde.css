@@ -191,6 +191,20 @@ a.sidebar-nav-item:focus {
   margin-top: 0px;
 }
 
+.sidebar-social {
+  margin-bottom: 20px;
+}
+
+i {
+  margin-right: 10px;
+  color: #565656;
+}
+
+i:hover {
+
+  color: #eee;
+}
+
 video#bgvid { 
     position: fixed;
     top: 50%;

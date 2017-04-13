@@ -13,6 +13,13 @@
         <li><a href="{{.URL}}"> {{ .Name }} </a></li>
       {{end}}
     </ul>
+
+    <div class="sidebar-social">
+      {{ range .Site.Menus.social }}
+        <a href="{{.URL}}"><i class="fa fa-{{ .Name }}"></i></a>
+      {{end}}
+    </div>
+
     <div class="sidebar-bottom">
       <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}{{end}}</p>
     </div>
