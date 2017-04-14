@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
-<body  style="background: url('/background-2.jpg'); background-size: cover" class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
-
+<body  class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+<div class="background lazy" style="background: url('/grey.png'); background-size: cover" data-original="/background-2.jpg"></div>  
 {{ partial "sidebar.html" . }}
 
     <div class="content container" >
@@ -33,4 +33,15 @@
 
   </body>
 {{ partial "ga.html" . }}  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script type="text/javascript">
+
+  $(document).ready(function () {
+    $("div.lazy").lazyload({
+      effect : "fadeIn",
+      effectspeed: 900 
+    });
+  });
+</script>
 </html>
