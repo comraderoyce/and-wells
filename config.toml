@@ -23,6 +23,11 @@ theme = "hyde-royce"
     url = "/writing"
     weight = 2
 
+[[menu.main]]
+    name = "projects"
+    url = "/projects"
+    weight = 4
+
 [[menu.social]]
     name = "twitter"
     identifier = "twitter"
