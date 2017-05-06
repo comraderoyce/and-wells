@@ -1,0 +1,10 @@
++++
+date = "2016-11-19"
+title = "DosseVia.com"
+author = "Royce"
+
++++
+
+[DosseVia.com](http://dossevia.com/) is a portfolio site for model Dossé-Via. 
+
+<!--more--> 
