@@ -1,0 +1,10 @@
++++
+date = "2016-11-19"
+title = "KnowTheZodiac.com"
+author = "Royce"
+
++++
+
+[KnowTheZodiac.com](http://dossevia.com/) is an astrology site with daily horoscopes. 
+
+<!--more--> 

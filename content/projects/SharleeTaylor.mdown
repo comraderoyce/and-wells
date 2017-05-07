@@ -1,0 +1,10 @@
++++
+date = "2016-11-19"
+title = "SharleeTaylor.com"
+author = "Royce"
+
++++
+
+[SharleeTaylor.com](http://sharleetaylor.com/) is a portfolio site for actrees Sharlee Taylor. 
+
+<!--more--> 
