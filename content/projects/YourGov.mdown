@@ -5,6 +5,6 @@ author = "Royce"
 
 +++
 
-[YourGov](http://app.yourgov.us/) is a small web app that will help you find your elected representatives. 
+[YourGov](http://app.yourgov.us/) is a small web app that will help you find and contact your elected representatives. 
 
 <!--more--> 

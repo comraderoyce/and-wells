@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Dosis", serif;
+  font-family: "Inconsolata", Arial, serif;
 }
 @media (min-width: 48em) {
   html {
@@ -57,7 +57,7 @@ html {
   text-align: center;
   padding: 4rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
+  background-color: #fff;
 }
 
 @media (min-width: 48em) {
@@ -74,12 +74,12 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #B60000;
 }
 
 .index-sub {
   background: #202020;
-  color: white;
+  color: #B60000;
   font-size: 3rem;
   line-height: 4rem;
   border: solid 15px #202020;
@@ -90,13 +90,15 @@ html {
 .lead {
   font-size: .8rem;
   font-weight: 100;
+  color: #000;
+  display: none;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
+  color: #B60000;
   margin-top: 0;
-  font-family: "Dosis", serif;
+  font-family: "Inconsolata", serif;
   font-size: 1rem;
   font-weight: 100;
 }
