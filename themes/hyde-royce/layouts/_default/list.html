@@ -5,14 +5,14 @@
 
 <div class="content container">
 <div class="posts">
-
+  <h1 class="mt0">{{ .Title }}</h1>
       {{ range .Data.Pages }}
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ .Permalink }}">
         {{ .Title }}
       </a>
-    </h1>
+    </h2>
 
     {{ .Content }}
   </div>
