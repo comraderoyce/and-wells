@@ -1,6 +1,9 @@
 <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
+        <a href="{{.URL}}">
+          <img src="/Royce_Beach.png" alt="Royce at the beach"></img>
+        </a>
       <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
       <p class="lead">
       {{ with .Site.Params.description }} {{.}} {{ else }}Phew{{end}}
@@ -16,7 +19,7 @@
 
     <div class="sidebar-social">
       {{ range .Site.Menus.social }}
-        <a href="{{.URL}}"><i class="fa fa-{{ .Name }}"></i></a>
+        <a href="{{.URL}}" targe="_blank"><i class="fa fa-{{ .Name }}"></i></a>
       {{end}}
     </div>
 
