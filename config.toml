@@ -8,6 +8,7 @@ theme = "hyde-royce"
 
 	tagline = "digital product"
 	description = "digital product"
+    disqusShortname = "roycewells-io"
 
 [[menu.main]]
     name = "about"
