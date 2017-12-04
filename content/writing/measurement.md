@@ -6,7 +6,7 @@ draft = false
 
 +++
 
-Here's a brief overview of techniques for measuring advertising and its success or failure in the market.  
+A brief overview of techniques for measuring advertising and its success or failure in the market.  
 
 <!--more--> 
 
