@@ -14,4 +14,4 @@ deploy:
         key_secret: $SECRET
         bucket_url: $URL
         source_dir: public/
-        opts: --acl-public --add-header=Cache-Control:max-age=604800 --no-verify-ssl
+        opts: --acl-public --add-header=Cache-Control:max-age=604800
