@@ -1,5 +1,5 @@
 +++
-date = "2017-12-4"
+date = "2017-12-04"
 title = "How Advertising is Measured"
 author = "Royce"
 draft = false
