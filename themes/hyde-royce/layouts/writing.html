@@ -4,7 +4,7 @@
 {{ partial "sidebar.html" . }}
 
     <div class="content container">
-        <h1>{{ .Title }}</h1>
+        <h1 class="mt0">{{ .Title }}</h1>
 <div class="posts">
 
       {{ range .Data.Pages }}
@@ -22,6 +22,6 @@
   {{ end }}
 </div>
 </div>
-
+{{ partial "ga.html" . }}  
   </body>
 </html>
