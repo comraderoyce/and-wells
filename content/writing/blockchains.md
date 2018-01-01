@@ -37,7 +37,7 @@ The digital enablement of ledgers and the resulting protocols, will enable of lo
 
 The decision making processes that underlie our economy, now debated in polity bodies like Congress, the EU, or the UN, will in the future look much more like the digital debates around bitcoins hard fork. 
 
-[^1]: [Nakamoto, Satoshi. "Bitcoin: A peer-to-peer electronic cash system." (2008)](https://bitcoin.org/bitcoin.pdf)
+[^1]: [Nakamoto, Satoshi. "Bitcoin: A peer-to-peer electronic cash system." (2008)](/bitcoin.pdf)
 
 
 
