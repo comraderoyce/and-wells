@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Inconsolata", Arial, serif;
+  font-family: "Linux Libertine", Arial, serif;
 }
 @media (min-width: 48em) {
   html {
@@ -98,7 +98,7 @@ html {
 .sidebar-about h1 {
   color: #B60000;
   margin-top: 0;
-  font-family: "Inconsolata", serif;
+  font-family: "Linux Libertine", "Times New Roman", serif;
   font-size: 1rem;
   font-weight: 100;
 }
