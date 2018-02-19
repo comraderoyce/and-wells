@@ -5,7 +5,7 @@ author = "Royce"
 
 +++
 
-How to deploy a Hugo generated static site to S3, and automate builds with Wercker.
+How to deploy a ```hugo``` generated static site to S3, and automate builds with Wercker.
 
 <!--more--> 
 
