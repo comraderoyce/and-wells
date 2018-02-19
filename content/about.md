@@ -23,6 +23,6 @@ I moved to Oakland and joined [Comrade](http://comradeagency.com) (2014) as an A
 
 ## Currently
 
-I work at Comrade leading various projects on our web practice with a focus on financial services and mission-based organizations. I live in Harlem with my wife and daugther. I also head the product team for [KnowTheZodiac](https://knowthezodiac). 
+I work at Comrade leading various projects on our web practice with a focus on financial services and mission-based organizations.  I also head the product team for [KnowTheZodiac](https://knowthezodiac.com). I live in Harlem with my wife and daugther.
 
-I love to travel with my family and mess around with computers. I keep notes on the things I'm working on and thinking about [here](/writing/) on the site. If you want to get in touch with me, [reach out](/contact/). 
+I love to travel with my family and still mess around with computers. I keep notes on the things I'm working on and thinking about [here](/writing/) on the site. If you want to get in touch with me, [reach out](/contact/). 
