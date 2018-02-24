@@ -3,12 +3,14 @@ languageCode = "en-us"
 title = "royce wells"
 PluralizeListTitles = false
 theme = "hyde-royce"
+rssLimit = 23
 
 [params]
 
-	tagline = "digital product"
-	description = "digital product"
-    disqusShortname = "roycewells-io"
+	tagline = "Building some things and tearing down others."
+	description = "This is my personal website where I write about designing and building digital products. -Royce"
+  disqusShortname = "roycewells-io"
+  author = "Royce Wells"
 
 [[menu.main]]
     name = "about"
