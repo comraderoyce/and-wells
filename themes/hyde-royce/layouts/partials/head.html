@@ -11,13 +11,13 @@
 
   {{ if .IsHome }}
   <title>{{ .Site.Title }}</title>
-  <meta name="description" content="This is my personal website where I write about designing and building digital products. -Royce"> 
-  {{ else if .Summary }}
-  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Summary }}"> 
   {{ else }}
   <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
   {{ end }}
+
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/schema.html" . }}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/linux-libertine.css">
