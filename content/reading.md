@@ -7,7 +7,8 @@ description = "What I am reading"
 
 +++
 
+Currently reading: 
+<!--more-->
+
 - Sapiens
 - Finite and Infinte Games
-
-

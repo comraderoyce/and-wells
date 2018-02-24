@@ -3,6 +3,7 @@
 <head>
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta >
   {{ .Hugo.Generator }}
 
   <!-- Enable responsiveness on mobile devices-->
@@ -10,6 +11,10 @@
 
   {{ if .IsHome }}
   <title>{{ .Site.Title }}</title>
+  <meta name="description" content="This is my personal website where I write about designing and building digital products. -Royce"> 
+  {{ else if .Summary }}
+  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Summary }}"> 
   {{ else }}
   <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
   {{ end }}

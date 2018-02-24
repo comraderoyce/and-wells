@@ -13,6 +13,8 @@ I work at the intersection of technology and business.
 
 Currently I am an Account Manager at [Comrade](http://comradeagency.com), a digital strategy and design agency, leading projects in our social and environmental programs and web practice. I also run [KnowTheZodiac](https://knowthezodiac.com) with my wife [Dossé-Via](http://dossevia.com).
 
+<!--more-->
+
 ## Brief History
 
 I started messing around with computers when I was 4 (1996) and built my first website in 4th grade (2001) using Microsoft Frontpage. In high school (2006-2008), I ran a niche [blog](http://wellsoneducation.wordpress.com) on secondary education before getting accepted at [The University of Southern California](https://usc.edu) (2009). At USC I studied history, spent a year abroad in France, and built more websites for students and school organizations. 
