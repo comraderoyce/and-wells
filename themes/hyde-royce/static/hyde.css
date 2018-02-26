@@ -251,6 +251,12 @@ video#bgvid {
     animation: blink 0.7s infinite;
 }
 
+h1.tag {
+  font-size: 1rem;
+  color:#B60000; 
+  display: inline-block;
+}
+
 /* Contact Form */
 
 input#first_5 {
