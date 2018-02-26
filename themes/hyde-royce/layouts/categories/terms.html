@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+
+{{ partial "sidebar.html" . }}
+
+    <div class="content container">
+        <h1 class="mt0">{{ .Title }}</h1>
+<div class="posts">
+  
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        <a href="/categories/{{ $name | urlize }}">#{{ $name | humanize }}</a> ({{ $taxonomy.Count }})</div>
+    {{end}}
+</div>
+
+  </body>
+  {{ partial "ga.html" . }}  
+</html>

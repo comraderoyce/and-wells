@@ -4,7 +4,7 @@
 {{ partial "sidebar.html" . }}
 
     <div class="content container">
-        <h1 class="mt0">{{ .Title }}</h1>
+        <h1 class="mt0 tag">#{{ .Title }}</h1>
 <div class="posts">
   
       {{ range .Data.Pages }}
@@ -15,17 +15,9 @@
       </a>
     </h2>
 
-    {{ if .Params.categories }}
-      <span class="post-date">posted {{ .Date.Format "Mon, Jan 2, 2006" }} in 
-        {{ range .Params.categories }}
-          <a class="tag" href="/categories/{{ . | urlize }}">#{{ . }}</a>
-        {{ end }}
-      </span>
-    {{ else }}
-      <span class="post-date">posted {{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-    {{ end }}
+    <span class="post-date">posted {{ .Date.Format "Mon, Jan 2, 2006" }}</span>
 
-    {{ .Summary }}
+    {{ .Content }}
   </div>
   {{ end }}
 </div>

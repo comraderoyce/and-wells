@@ -5,12 +5,17 @@ PluralizeListTitles = false
 theme = "hyde-royce"
 rssLimit = 23
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [params]
 
-	tagline = "Building some things and tearing down others."
-	description = "This is my personal website where I write about designing and building digital products. -Royce"
+  tagline = "Building some things and tearing down others."
+  description = "This is my personal website where I write about designing and building digital products."
   disqusShortname = "roycewells-io"
   author = "Royce Wells"
+  images = ["https://source.unsplash.com/1600x900/?nature,water"]
 
 [[menu.main]]
     name = "about"
@@ -18,13 +23,13 @@ rssLimit = 23
     url = "/about"
     weight = 1
 [[menu.main]]
-    name = "contact"
-    url = "/contact"
-    weight = 3
-[[menu.main]]
     name = "writing"
     url = "/writing"
     weight = 2
+[[menu.main]]
+    name = "contact"
+    url = "/contact"
+    weight = 3
 
 [[menu.social]]
     name = "twitter"
@@ -43,3 +48,7 @@ rssLimit = 23
     name = "envelope"
     url = "mailto:wells.royce@gmail.com"
     weight = 4
+[[menu.social]]
+    name = "rss"
+    url = "/index.xml"
+    weight = 5

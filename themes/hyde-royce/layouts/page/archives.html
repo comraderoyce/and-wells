@@ -1,0 +1,27 @@
+{{ partial "head.html" . }}
+<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+
+{{ partial "sidebar.html" . }}
+
+    <div class="content container">
+        <h1 class="mt0">{{ .Title }}</h1>
+<div class="posts">
+  
+    {{ range (.Site.Pages.GroupByDate "2006") }}
+        <h3>{{ .Key }}</h3>
+
+        <ul class="archive-list">
+            {{ range (where .Pages "Section" "writing") }}
+                <li>
+                    {{ .PublishDate.Format "Jan 2" }}
+                    - 
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+</div>
+
+  </body>
+  {{ partial "ga.html" . }}  
+</html>
