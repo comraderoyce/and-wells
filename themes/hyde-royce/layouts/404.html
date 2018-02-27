@@ -4,8 +4,17 @@
 {{ partial "sidebar.html" . }}
 
     <div class="content container">
-      <h1>404: Page not found</h1>
-        <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ .Site.BaseURL }}">Head back home</a> to try finding it again.</p>
+      <h1>404!</h1>
+        <p class="">Sorry, there's nothing here. <a href="{{ .Site.BaseURL }}">Head back home</a> to try finding your way again.</p>
+        <ul>
+          {{ $urlPre := "https://api.github.com" }}
+          {{ $gistJ := getJSON $urlPre "/users/comraderoyce/gists" }}
+          {{ range first 5 $gistJ }}
+            {{ if .description }}
+              <li><a href="{{ .html_url }}" target="_blank">{{ .description }}</a></li>
+            {{ end }}
+          {{ end }}
+        </ul>
     </div>
 
   </body>

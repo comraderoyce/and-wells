@@ -257,6 +257,11 @@ h1.tag {
   display: inline-block;
 }
 
+.commit-note {
+  font-size: 10px;
+  float: right;
+}
+
 /* Contact Form */
 
 input#first_5 {

@@ -4,6 +4,9 @@ title = "royce wells"
 PluralizeListTitles = false
 theme = "hyde-royce"
 rssLimit = 23
+enableGitInfo = true
+footnoteReturnLinkContents = "↩"
+
 
 [taxonomies]
   tag = "tags"
@@ -16,6 +19,7 @@ rssLimit = 23
   disqusShortname = "roycewells-io"
   author = "Royce Wells"
   images = ["https://source.unsplash.com/1600x900/?nature,water"]
+  blogRepo = "https://github.com/comraderoyce/and-wells/"
 
 [[menu.main]]
     name = "about"

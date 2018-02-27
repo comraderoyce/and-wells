@@ -2,10 +2,10 @@
 date = "2018-02-18"
 title = "Business Models of Conversation"
 author = "Royce"
-
+categories = [ "reference" ]
 +++
 
-Ideas around how to build business by packaging conversations. 
+Ideas around how to build business by packaging conversations.
 
 <!--more--> 
 

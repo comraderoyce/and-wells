@@ -6,10 +6,9 @@
     <div class="content container">
         <h1 class="mt0">{{ .Title }}</h1>
 <div class="posts">
-    
-    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-        <a href="/categories/{{ $name | urlize }}">#{{ $name }}</a> ({{ $taxonomy.Count }})</div>
-    {{end}}
+    {{ range .Params.books }}
+        <img style="width: 23%; padding: 1%; float: left" src="http://covers.openlibrary.org/b/isbn/{{ . }}-M.jpg"  />
+    {{ end }}
 </div>
 
   </body>

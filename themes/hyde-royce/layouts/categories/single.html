@@ -15,11 +15,8 @@
           <span class="post-date">posted {{ .Date.Format "Mon, Jan 2, 2006" }}</span>
         {{ end }}
            {{ .Content }}
-           {{ if .GitInfo }}
-            <a class="commit-note" target="_blank" href="{{ .Site.Params.blogRepo }}commit/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>
-           {{ end }}
       </div>
-      
+
         <h2>Comments</h2>
         {{ partial "disqus" . }}
     </div>
