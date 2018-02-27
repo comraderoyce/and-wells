@@ -15,15 +15,7 @@
       </a>
     </h2>
 
-    {{ if .Params.categories }}
-      <span class="post-date">posted {{ .Date.Format "Mon, Jan 2, 2006" }} in 
-        {{ range .Params.categories }}
-          <a class="tag" href="/categories/{{ . | urlize }}">#{{ . }}</a>
-        {{ end }}
-      </span>
-    {{ else }}
-      <span class="post-date">posted {{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-    {{ end }}
+    {{ partial "post-meta.html" . }}
 
     {{ .Summary }}
   </div>

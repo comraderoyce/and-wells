@@ -5,15 +5,7 @@
     <div class="content container">
       <div class="post">
         <h1 class="mt0">{{ .Title }}</h1>
-        {{ if .Params.categories }}
-          <span class="post-date">posted {{ .Date.Format "Mon, Jan 2, 2006" }} in 
-            {{ range .Params.categories }}
-              <a class="tag" href="/categories/{{ . | urlize }}">#{{ . }}</a>
-            {{ end }}
-          </span>
-        {{ else }}
-          <span class="post-date">posted {{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-        {{ end }}
+        {{ partial "post-meta.html" . }}
            {{ .Content }}
       </div>
 
