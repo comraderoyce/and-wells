@@ -1,0 +1,3 @@
+{{ if .GitInfo }}
+ <a class="commit-note" target="_blank" href="{{ .Site.Params.blogRepo }}commit/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>
+{{ end }}
