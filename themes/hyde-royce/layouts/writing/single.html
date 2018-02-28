@@ -11,8 +11,6 @@
             <a class="commit-note" target="_blank" href="{{ .Site.Params.blogRepo }}commit/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>
            {{ end }}
       </div>
-      
-        <h2>Comments</h2>
         {{ partial "disqus" . }}
     </div>
 

@@ -22,9 +22,5 @@
         <a href="{{.URL}}" targe="_blank"><i class="fa fa-{{ .Name }}"></i></a>
       {{end}}
     </div>
-
-    <div class="sidebar-bottom">
-      <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}{{end}}</p>
-    </div>
   </div>
 </div>
