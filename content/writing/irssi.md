@@ -42,7 +42,7 @@ The main config file is ```~/.irssi/config```.
 
 Adding hilights to your username:
 
-```
+```irssi
 hilights = (
   { text = "royce"; color = "%M"; nick = "yes"; word = "yes"; }
 );
@@ -51,7 +51,7 @@ hilights = (
 
 Changing the names associated with your base accout logins.
 
-```
+```irssi
 settings = {
   core = { real_name = "royce"; user_name = "royce"; nick = "royce"; };
 };
@@ -61,7 +61,7 @@ settings = {
 
 I had to remove networks from the default configuration to get things working with the SASL configuration.  
 
-```
+```irssi
 /network remove Freenode
 /network add -sasl_username <username> -sasl_password <password> -sasl_mechanism plain Freenode
 /server add -auto -net Freenode -ssl -ssl_verify irc.freenode.net 6697
