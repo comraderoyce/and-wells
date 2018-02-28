@@ -40,7 +40,7 @@ Get started with Hugo [here](https://gohugo.io/tutorials/automated-deployments/)
 
 Steps recreated here: 
 
-```
+```bash
 $ brew install hugo
 $ hugo new site and-wells
 $ cd and-wells
@@ -52,7 +52,7 @@ Go ahead and add your themes to the themes folder.
 
 Make a post or page, then go check everything out locally. 
 
-``` 
+```bash
 $ hugo new about.md
 $ vim content/about.md
 $ hugo server --buildDrafts
@@ -62,7 +62,7 @@ $ hugo server --buildDrafts
 
 Make a repo on GitHub and add your Hugo files.
 
-```
+```bash
 $ git init
 $ echo "/public" >> .gitignore 
 $ echo "User-agent: *\nDisallow:" > static/robots.txt
@@ -89,7 +89,7 @@ Wercker will need your Amazon key information to deploy to S3. Add those in the 
 
 The `werkcer.yml` file goes in the root folder of your site. 
 
-```
+```yml
 # werkcer.yml
 box: debian
 build:

@@ -27,8 +27,8 @@ I used `geeknote`, a command line utility for Evernote, so it was a matter of ju
 
 Here is the plugin:
 
-```sh
-#!/bin/sh
+```bash
+#!/bin/bash
 #basic newsboat bookmark plugin for evernote
 
 url="$1"
@@ -36,7 +36,7 @@ title="$2"
 description="$3"
 feed_title="$4"
 
-content="${url}"$'\n'"${description}"$'\n'${feed_title}
+content="${url}"$'\n'"${description}"$'\n'"${feed_title}"
 
 geeknote create --title "${title}" --content "${content}"
 

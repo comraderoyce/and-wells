@@ -13,14 +13,14 @@ How to get started with ```irssi```, the terminal IRC client.
 
 Use Homebrew for the install. It is also helpful to run things in ```tmux``` so that you can maintain sessions. 
 
-```
+```bash
 $ brew install irssi
 $ tmux -c irssi 
 ```
 
 ## Starting with irssi
 
-```
+```irssi
 /set nick royce
 ```
 
@@ -30,7 +30,7 @@ Make sure to change your username and nicknames if you don't want to use your sy
 
 Once irssi starts up, you can connect to IRC servers and then join channels. 
 
-```
+```irssi
 /connect Freenode
 /join #irssi
 ```

@@ -6,7 +6,8 @@ theme = "hyde-royce"
 rssLimit = 23
 enableGitInfo = true
 footnoteReturnLinkContents = "↩"
-
+pygmentsCodeFences = true
+PygmentsStyle = ""
 
 [taxonomies]
   tag = "tags"
