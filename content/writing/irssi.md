@@ -5,7 +5,7 @@ author = "Royce"
 
 +++
 
-How to get started with ```irssi```, the terminal IRC client. 
+How to get started with ```irssi```, the terminal IRC client.
 
 <!--more--> 
 
