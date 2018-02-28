@@ -8,6 +8,7 @@ enableGitInfo = true
 footnoteReturnLinkContents = "↩"
 pygmentsCodeFences = true
 PygmentsStyle = ""
+enableEmoji = true 
 
 [taxonomies]
   tag = "tags"
