@@ -14,6 +14,10 @@ enableEmoji = true
   tag = "tags"
   category = "categories"
 
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "RSS"]  
+
 [params]
 
   tagline = "Building some things and tearing down others."
