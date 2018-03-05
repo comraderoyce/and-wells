@@ -2,6 +2,7 @@
 title: "tmux notes"
 date: 2018-02-27T23:32:19-05:00
 categories: ["reference"]
+draft: true
 ---
 
 Notes on how I'm using ```tmux```.
