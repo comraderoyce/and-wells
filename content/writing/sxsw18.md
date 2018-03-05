@@ -12,13 +12,13 @@ I will be hosting a [panel][panel] at SXSW on how to use next-generation technol
 
 Joining me will be Kilian Moote from [Humanity United][HU], Sarah Potts from [Thorn][Thorn] and Bennett Wetch from [Fair Trade Certified][FTC].
 
-There are many mission-based organizations that are exploring applications of new technologies to improve the world. The folks that are joining me on the panel are amazing examples of this. Humanity United team is funding [Provenance][Provenance], a [blockchain][blockchains] intiative to track products through the supply chain. Thorn is using semantic analysis to prevent child abuse on social media platforms. FairTrade Certified is leveraging cutting edge DevOps and Agile management practices to connect consumers with responsibly-sourced goods.
+There are many mission-based organizations that are exploring applications of new technologies to improve the world. The folks that are joining me on the panel are amazing examples of this. Humanity United team is funding [Provenance][Provenance], a [blockchain][blockchains] initiative to track products through the supply chain. Thorn is using semantic analysis to prevent child abuse on social media platforms. FairTrade Certified is leveraging cutting edge DevOps and Agile management practices to connect consumers with responsibly-sourced goods.
 
 We will look at how organizations can decide if new technologies will make an impact. and how we know whether our efforts are making the desired impact. 
 
-I also want to ask about how we can prevent uninitended consequences when deploying new products. How do we build systems that take social good in to account, and keep it as a foundational principle in our work and our products. 
+I also want to ask about how we can prevent unintended consequences when deploying new products. How do we build systems that take social good in to account, and keep it as a foundational principle in our work and our products. 
 
-Companies are learning that all organizations need to take social good in to account. Some first-movers are succesfully adopting new tech to solve business problems while also improving society.
+Companies are learning that all organizations need to take social good in to account. Some first-movers are successfully adopting new tech to solve business problems while also improving society.
 
 Our day of programming is called Lean Digital Speedway. In keeping with the theme, I want to see how we can move fast and fix things. Hope to see you there. 
 
