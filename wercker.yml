@@ -1,13 +1,16 @@
-box: debian
+box: devillex/docker-firebase
 build:
   steps:
     - install-packages:
-        packages: git
+        packages: git npm
     - arjen/hugo-build:
         version: "0.37"
         theme: hyde-royce
         config: config.toml
         flags: --buildDrafts
+    - npm-install:
+      package: firebase-tools
+      strict-ssl: false
 
 deploy:
   steps:
