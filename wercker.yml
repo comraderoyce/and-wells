@@ -9,8 +9,8 @@ build:
         config: config.toml
         flags: --buildDrafts
     - npm-install:
-      package: firebase-tools
-      strict-ssl: false
+        package: firebase-tools
+        strict-ssl: false
 
 deploy:
   steps:
@@ -20,6 +20,6 @@ deploy:
         bucket_url: $URL
         source_dir: public/
         opts: --acl-public --add-header=Cache-Control:max-age=604800 --no-ssl
-    - devillex/firebase-deploy@1.0.0:
-        project: $FIREBASE_PROJECT_NAME
-        token: $FIREBASE_TOKEN
+    - script:
+        name: firebase deploy
+        code: firebase deploy --project $FIREBASE_PROJECT_NAME --token $FIREBASE_TOKEN
