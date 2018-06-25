@@ -6,7 +6,14 @@
     <div class="content container" >
 
       {{ .Content }}
-      {{ partial "post-list.html" }}
+      <span class="archive-list"> Recently I've written about
+        {{ range first 3 (where .Site.Pages "Section" "writing") }}
+          <span>
+            <a href={{.Permalink}}>{{ .Title }}</a>, 
+          </span>
+        {{end}} and <a href="/writing">more</a>. 
+        Sign up below to get a weekly email with my latest posts.
+      </span>
       <br>
       {{ partial "mailchimp.html" }}
       
