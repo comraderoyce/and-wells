@@ -1,0 +1,7 @@
+<span class="archive-list"> Recently I've written about
+    {{ range first 3 (where .Pages "Section" "writing") }}
+        <span>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>,
+        </span>
+    {{ end }}
+  </span>

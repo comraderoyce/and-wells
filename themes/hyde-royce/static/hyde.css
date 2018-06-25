@@ -385,3 +385,48 @@ input#input_4 {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+#mc_embed_signup form {
+  padding: 0 !important;
+  display: inline-block;
+}
+
+#mc_embed_signup{
+  clear:left; 
+  font:14px "Linux Libertine";
+  max-width: 350px;
+  display: block;
+  padding: 10px;
+  margin: 40px 0px 10px 0px;
+  background: white !important;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.03);
+  border-radius: 10px;
+  border: solid 1px #eee
+}
+
+#mc_embed_signup .mc-field-group input {
+  border: 0px solid #ABB0B2;
+  border-bottom: 1px solid #ABB0B2;
+  border-radius: 0px;
+  display: inline !important;
+  max-width: 150px;
+  margin: 10px 0;
+}
+
+#mc_embed_signup .mc-field-group input:focus {
+  border-bottom: 1px solid black; 
+  outline: none;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+  border: none !important;
+  border-bottom: 2px solid #e85c41 !important; 
+} 
+
+#mc_embed_signup .button:focus {
+  outline: none;
+  border: 1px solid black; 
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  padding: 0 !important;
+}
