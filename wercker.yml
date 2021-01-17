@@ -2,7 +2,7 @@ box: devillex/docker-firebase
 build:
   steps:
     - install-packages:
-        packages: git npm
+        packages: git
     - arjen/hugo-build:
         version: "0.37"
         theme: hyde-royce
