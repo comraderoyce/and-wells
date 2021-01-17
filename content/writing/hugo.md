@@ -128,8 +128,6 @@ Wercker has changed their UI since a lot of these were written, but I was able t
 - [How anyone in the world can create cheap static sites.](http://katsenblog.com/post/85144002449/how-anyone-in-the-world-can-create-cheap-static)
 - [Pointing a Domain to an Amazon S3 Bucket](http://steveliles.github.io/pointing_a_domain_name_to_an_amazon_s3_bucket.html)
 
+Update 2021-01-17: At some point I ended up changing the S3 storage to a Firebase storage. Google had a deal at some point so the site runs for free basically. I never actually documented this in the tutorial here but you can see the Wercker file in my [GitHub repo](https://github.com/comraderoyce/and-wells/blob/master/wercker.yml) that holds this site's code. Looking at it now, I'm not sure that the S3 steps are going anywhere and they can probably be removed. 
 
-
-
-
-
+In deploying the latest site I did some small configurations to the Wercker install-packages step. I also had to generate a new $TOKEN for the [firebase-tools](https://firebase.google.com/docs/cli) step. 
