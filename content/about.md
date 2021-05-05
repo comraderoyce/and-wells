@@ -9,9 +9,9 @@ description = "About Royce"
 
 Hey, I'm Royce Wells. 
 
-I work at the intersection of technology and business. 
+I'm an American expat currently living in Lomé, Togo. 
 
-Currently I am a strategist at [CI&T](https://ciandt.com) focused on analytics and data architecture. I also manage a [seed fund](https://investinginafrica.substack.com/) focused on West Africa businesses.
+I work as strategist at [CI&T](https://ciandt.com) focused on analytics and data architecture. I also manage an [investment fund](https://volatequity.com/) focused on West Africa businesses.
 
 <!--more-->
 

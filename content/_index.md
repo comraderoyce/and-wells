@@ -8,8 +8,8 @@ title = "Royce Wells"
 
 ## Hey, I'm Royce
 
-I work at the intersection of technology and business. 
+I'm an American expat currently living in Lomé, Togo. 
 
-[Currently](/about) I am a Strategist at [CI&T](http://ciandt.com). I also manage a [seed fund](https://investinginafrica.substack.com/) focused on West Africa businesses. I love to travel with my family and mess around with computers.
+I work as strategist at [CI&T](https://ciandt.com) focused on analytics and data architecture. I also manage an [investment fund](https://volatequity.com/) focused on West Africa businesses.
 
 If you're interested in talking or working together, [reach out](/contact). 
