@@ -33,6 +33,6 @@ We moved our small family out of the United States and my first son, Rémy, was 
 
 ## Currently
 
-I work at CI&T as a strategist focused on data architecture and technical analytics work. I spend a lot of time looking at production data and using it to help our clients make better business decisions. I do [seed investments](https://investinginafrica.substack.com/) in West African small business.
+I work at CI&T as a strategist focused on data architecture and technical analytics work. I spend a lot of time looking at production data and using it to help our clients make better business decisions. I do [seed investments](https://voltaequity.com/) in West African small business.
 
 I love to travel with my family and still mess around with computers. I keep notes on the things I'm working on and thinking about [here](/writing/) on the site. If you want to get in touch with me, [reach out](/contact/). 
