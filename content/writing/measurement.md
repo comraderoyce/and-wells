@@ -59,7 +59,6 @@ Depending on the type of model, the inputs, variables and outputs are going to b
 
 ### Further Reading
 
-
 Quick overview of that literature: 
 
 Kudos to [Advertising across Platforms: Conditions for Multimedia Campaigns](http://www.journalofadvertisingresearch.com/content/56/4/352) for this list. 
@@ -73,14 +72,15 @@ Studies about the effect of advertising on sales:
 - [The Unfavorable Economics of Measuring the Returns to Advertising - Lewis and Rao, 2015](https://courses.cit.cornell.edu/jl2545/4550/materials/lewisraoQJE.pdf)
 
 
+More from [Advertising across Platforms: Conditions for Multimedia Campaigns](http://www.journalofadvertisingresearch.com/content/56/4/352):
+
 > Numerous studies have highlighted the existence of synergy effects (e.g., Chang and Thorson, 2004) and reasons why these synergy effects exist. A recap of research about cross-platform advertising (Neijens and Voorveld, 2015) cited studies demonstrating specifically that:
->
 > * The use of multiple media increases the reach of a given campaign (e.g., [Briggs, Krishnan, and Borin, 2005](http://onlinelibrary.wiley.com/doi/10.1002/dir.20045/abstract); [Enoch and Johnson, 2010](http://www.journalofadvertisingresearch.com/content/50/2/125); [Fulgoni and Lipsman, 2014](http://www.journalofadvertisingresearch.com/content/54/1/11); [Taylor et al., 2013](http://www.journalofadvertisingresearch.com/content/53/2/200)).
-* Combinations of media take advantage of the unique strengths of the individual media (e.g., Dijkstra, Buijtels, and Van Raaij, 2005; Okazaki and Hirose, 2009; Tsao and Sibley, 2004). Additionally, wear-out is reduced when the consumer is exposed to multiple media (e.g., Navarro-Bailon, 2012; Stammerjohan, Wood, Chang, and Thorson, 2005).
-* Information is encoded in a more complex manner when consumers are exposed to it on multiple media (Laroche, Kiani, Economakis, and Richard, 2013; Stammerjohan et al., 2005; Tavassoli, 1998; Vandeberg, Murre, Voorveld, and Smit, 2015; Voorveld, Neijens, and Smit, 2011; Voorveld and Valkenburg, 2015).
-* Exposure to information on multiple sources may increase the credibility of that information (e.g., Chang and Thorson, 2004; Dijkstra, 2002; Laroche et al., 2013; Voorveld et al., 2011).
-* Advertisements that have been seen previously on different media may benefit from curiosity already having been stimulated (e.g., Dijkstra, 2002; Edell and Keller, 1989; Voorveld et al., 2011).
-* Recalling advertisements in one medium when exposed in another adds to synergy (e.g., Chang and Thorson, 2004; Dijkstra, 2002; Edell and Keller, 1989; Voorveld et al., 2011).
+> * Combinations of media take advantage of the unique strengths of the individual media (e.g., Dijkstra, Buijtels, and Van Raaij, 2005; Okazaki and Hirose, 2009; Tsao and Sibley, 2004). Additionally, wear-out is reduced when the consumer is exposed to multiple media (e.g., Navarro-Bailon, 2012; Stammerjohan, Wood, Chang, and Thorson, 2005).
+> * Information is encoded in a more complex manner when consumers are exposed to it on multiple media (Laroche, Kiani, Economakis, and Richard, 2013; Stammerjohan et al., 2005; Tavassoli, 1998; Vandeberg, Murre, Voorveld, and Smit, 2015; Voorveld, Neijens, and Smit, 2011; Voorveld and Valkenburg, 2015).
+> * Exposure to information on multiple sources may increase the credibility of that information (e.g., Chang and Thorson, 2004; Dijkstra, 2002; Laroche et al., 2013; Voorveld et al., 2011).
+> * Advertisements that have been seen previously on different media may benefit from curiosity already having been stimulated (e.g., Dijkstra, 2002; Edell and Keller, 1989; Voorveld et al., 2011).
+> * Recalling advertisements in one medium when exposed in another adds to synergy (e.g., Chang and Thorson, 2004; Dijkstra, 2002; Edell and Keller, 1989; Voorveld et al., 2011).
 
 
 [Measuring the Long-Term Effects Of Television Advertising](http://www.journalofadvertisingresearch.com/content/55/2/123)

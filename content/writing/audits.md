@@ -75,9 +75,7 @@ Expect to see many more interesting use cases as the technology matures.
 
 
 
-[blockchains]: /blockchains
-[HU]: https://humanityunited.org
-[Provenance]: https://www.provenance.org/
+[blockchains]: /writing/blockchains
 [^enron nytimes]: [Arthur Andersen Fires an Executive for Enron Orders](http://www.nytimes.com/2002/01/16/business/enron-s-collapse-overview-arthur-andersen-fires-executive-for-enron-orders.html)
 [^forbes]: [No Audit At All: Deloitte and Bear Stearns](https://www.forbes.com/sites/francinemckenna/2011/01/25/no-audit-at-all-deloitte-and-bear-stearns/#2e8208c05960)
 [^malaysia]: [U.S. Targets $1 Billion in Assets in Malaysian Embezzlement Case](https://www.nytimes.com/2016/07/21/world/asia/1mdb-malaysia-us-assets-seized.html)

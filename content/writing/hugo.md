@@ -17,7 +17,7 @@ Serve a static site cheaply and efficiently on your own domain.
 
 Using [Hugo](https://gohugo.io/) to generate a static site means that we can host it on a cloud storage service like [Amazon S3](https://aws.amazon.com/s3/) for a few cents each month. 
 
-Hugo will let us edit posts and pages quickly with MarkDown, and an automated build and deploy to S3 with [Wercker](www.wercker.com) makes publishing simple as pushing to a repo.
+Hugo will let us edit posts and pages quickly with MarkDown, and an automated build and deploy to S3 with [Wercker](http://www.wercker.com) makes publishing simple as pushing to a repo.
 
 ### Sign ups
 
