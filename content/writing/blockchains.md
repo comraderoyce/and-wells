@@ -2,6 +2,7 @@
 date = "2017-08-01"
 title = "Some notes on blockchains"
 author = "Royce"
+meta = true
 
 +++
 
@@ -11,7 +12,7 @@ Ok so the crypto currency revolution is well enough under way, and since the har
 
 <!--more-->
 
-Blockchains started with a Whitepaper[^1], written by Satoshi Nakamoto. It laid out a new protocol for creating immutable records in a way that didn't require trusting the person you were transacting with. It's all secured with math and code, which makes it perfect for the internet world. 
+Blockchains started with a Whitepaper{{% sidenote %}} [Nakamoto, Satoshi. "Bitcoin: A peer-to-peer electronic cash system." (2008)](/bitcoin.pdf) {{% /sidenote %}} written by Satoshi Nakamoto. It laid out a new protocol for creating immutable records in a way that didn't require trusting the person you were transacting with. It's all secured with math and code, which makes it perfect for the internet world. 
 
 At base, the premise is simple. Transferring happens between wallets that are cryptographic tokens. If I transfer bitcoin from one wallet to another, I run a bit of code on my computer, generate a lot of numbers and letters that contain information about the transaction, and then broadcast the news to the network. 
 
