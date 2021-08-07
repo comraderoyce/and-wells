@@ -93,12 +93,6 @@ enableEmoji = true
   weight = -100 
   identifier = "Writing"
   url = "/writing"
-[[menu.nav]]
-  name = "Categories"
-  # pre = "<i class='fa fa-tags fa-lg'></i> "
-  weight = -90 
-  identifier = "categories"
-  url = "/categories"
 
 # -----------------------------------------------------------------------
 # Footer menu 
@@ -115,3 +109,9 @@ enableEmoji = true
   weight = -90 
   identifier = "twitter"
   url = "https://twitter.com/thatRoyce"
+[[menu.footer]]
+  name = ""
+  pre = "<i class='fa fa-envelope fa-2x'></i> "
+  weight = -80 
+  identifier = "email"
+  url = "mailto:wells.royce@gmail.com"
