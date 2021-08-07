@@ -4,7 +4,7 @@ build:
     - install-packages:
         packages: git
     - arjen/hugo-build:
-        version: "0.74.3"
+        version: "0.75.1"
         theme: hyde-royce
         config: config.toml
         flags: --buildDrafts
