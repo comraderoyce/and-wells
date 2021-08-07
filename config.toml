@@ -100,13 +100,13 @@ enableEmoji = true
 [[menu.footer]]
   name = ""
   pre = "<i class='fa fa-github fa-2x'></i> "
-  weight = -100 
+  weight = -90 
   identifier = "github"
   url = "https://github.com/comraderoyce"
 [[menu.footer]]
   name = ""
   pre = "<i class='fa fa-twitter fa-2x'></i> "
-  weight = -90 
+  weight = -100 
   identifier = "twitter"
   url = "https://twitter.com/thatRoyce"
 [[menu.footer]]
@@ -115,3 +115,9 @@ enableEmoji = true
   weight = -80 
   identifier = "email"
   url = "mailto:wells.royce@gmail.com"
+[[menu.footer]]
+  name = ""
+  pre = "<i class='fa fa-linkedin fa-2x'></i>"
+  weight = -81 
+  identifier = "linkedin"
+  url = "https://www.linkedin.com/in/roycewells/"

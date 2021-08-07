@@ -5,10 +5,13 @@ toc = false
 author = "Royce"
 title = "How to Install dapptools on an M1 Mac"
 date = "2021-08-07"
+category = "blockchain"
 
 +++
 
 I ran in to some issues trying to install [dapptools](https://github.com/dapphub/dapptools) on my M1 MacBook Air. The project Readme.md helpfully explains that you have to run dapptools and the installer under Rosetta 2. But it took me a few tries to get it right and there wasn't a clear explanation of the complete steps, so recording those here.  
+
+<!--more-->
 
 `dapptools` is a set of UNIX-style command line tools to interact with Ethereum contracts.
 
