@@ -10,6 +10,6 @@ title = "Royce Wells"
 
 I'm an American expat currently living in Lomé, Togo. 
 
-I work as strategist at [CI&T](https://ciandt.com) focused on analytics and data architecture. I also manage an [investment fund](https://volatequity.com/) focused on West Africa businesses.
+I work as strategist at [CI&T](https://ciandt.com) focused on analytics and data architecture. I also manage an [investment fund](https://voltaequity.com/) focused on West Africa businesses.
 
-If you're interested in talking or working together, [reach out](/contact). 
+If you're interested in talking or working together, [reach out](/contact).
