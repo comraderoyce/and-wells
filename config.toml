@@ -2,13 +2,16 @@ baseurl = "https://roycewells.io"
 languageCode = "en-us"
 title = "royce wells"
 PluralizeListTitles = false
-theme = "hyde-royce"
+theme = "hugo-tufte-royce"
 rssLimit = 23
 enableGitInfo = true
 footnoteReturnLinkContents = "↩"
 pygmentsCodeFences = true
-PygmentsStyle = ""
+PygmentsStyle = "pygments"
 enableEmoji = true 
+
+[markup.goldmark.renderer]
+    unsafe= true
 
 [taxonomies]
   tag = "tags"
@@ -23,9 +26,15 @@ enableEmoji = true
   tagline = "Building some things and tearing down others."
   description = "This is my personal website where I write about designing and building digital products."
   disqusShortname = "roycewells-io"
-  author = "Royce Wells"
+  # author = "Royce Wells"
   images = ["https://source.unsplash.com/1600x900/?nature,water"]
   blogRepo = "https://github.com/comraderoyce/and-wells/"
+
+  # for tufte theme
+  meta = true
+  showPoweredBy = false
+  copyrightHolder = "Royce Wells"
+
 
 [[menu.main]]
     name = "about"
@@ -62,3 +71,47 @@ enableEmoji = true
     name = "rss"
     url = "/index.xml"
     weight = 5
+
+# -----------------------------------------------------------------------
+# Navigation menu 
+# -----------------------------------------------------------------------
+[[menu.nav]]
+  name = "Home"
+  # pre = "<i class='fa fa-home fa-lg'></i> "
+  weight = -120 
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  name = "About"
+  # pre = "<i class='fa fa-home fa-lg'></i> "
+  weight = -110 
+  identifier = "about"
+  url = "/about"  
+[[menu.nav]]
+  name = "Writing"
+  # pre = "<i class='fa fa-book fa-lg'></i> "
+  weight = -100 
+  identifier = "Writing"
+  url = "/writing"
+[[menu.nav]]
+  name = "Categories"
+  # pre = "<i class='fa fa-tags fa-lg'></i> "
+  weight = -90 
+  identifier = "categories"
+  url = "/categories"
+
+# -----------------------------------------------------------------------
+# Footer menu 
+# -----------------------------------------------------------------------
+[[menu.footer]]
+  name = ""
+  pre = "<i class='fa fa-github fa-2x'></i> "
+  weight = -100 
+  identifier = "github"
+  url = "https://github.com/comraderoyce"
+[[menu.footer]]
+  name = ""
+  pre = "<i class='fa fa-twitter fa-2x'></i> "
+  weight = -90 
+  identifier = "twitter"
+  url = "https://twitter.com/thatRoyce"

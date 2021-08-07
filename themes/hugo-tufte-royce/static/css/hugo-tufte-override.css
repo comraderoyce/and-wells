@@ -1,0 +1,47 @@
+section.footnotes {
+    width: 55%;
+}
+
+section.footnotes ol, section.footnotes p {
+    width: auto
+}
+
+hl.content-title {
+    max-width: 50rem;
+    width: auto;
+}
+
+.highlight {
+    max-width: 55%;
+}
+
+pre {
+    padding: 10px;
+}
+
+ul li p {
+    width: auto;
+}
+
+nav.menu li a {
+    text-decoration: underline;
+    text-transform: none;
+    font-size: 1.5rem;
+}
+
+h1.content-title {
+    max-width: 50rem;
+}
+
+figure.fullwidth figcaption {
+    width: 33%;
+}
+
+pre code {
+    width: auto;
+}
+
+li .highlight {
+    width: auto;
+    max-width: 100%;
+}
