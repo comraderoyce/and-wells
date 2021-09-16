@@ -6,16 +6,17 @@ author = "Royce"
 title = "SQL basics for Tableau and Redshift"
 date = "2021-09-15"
 category = "notes"
+description = "Notes on working with SQL and Tableau"
 
 +++
 
 There is something about not reading a manual or taking a walk through the basic documentation when learning a piece of software that is rewarding yet very painful. 
-True to form, I jumped in to creating a Tableau dashboard without much prior knowledge of Tableau or SQL. Here are some things I wish I would have known when starting the work.
+True to form, I jumped into creating a Tableau dashboard without much prior knowledge of Tableau or SQL. Here are some things I wish I would have known when starting the work.
 
 <!--more-->
 
 
-I have been speedrunning learning Tableau and SQL for a work project. The brief is to create a dashboard that shows the reach and type of customer interactions with a regional suite of websites. There were a bunch of tables for each channel (email, sales calls, website visits, etc.) along with some cross-table user information like their ID. Further there were tables with 
+I have been speedrunning learning Tableau and SQL for a work project. The brief is to create a dashboard that shows the reach and type of customer interactions with a regional suite of websites. There were a bunch of tables for each channel (email, sales calls, website visits, etc.) along with some cross-table user information like their ID. Further, there were tables with 
 
 # SQL Super Basics
 
@@ -33,7 +34,7 @@ Some other basics:
 
 - `UNION` needs to be run on tables that have the same number of columns.
 - `FULL OUTER JOIN` will return multiple columns of the key used to match on.
-- With `SELECT` statments, you can assign a table alias by putitng a key in after the relevant `SELECT`:
+- With `SELECT` statements, you can assign a table alias by putting a key in after the relevant `SELECT`:
 
     For example, the following would let you then call the table with the alias `t1`.
 
@@ -45,7 +46,7 @@ Some other basics:
 Working with dates is a bit complicated but here are some useful tricks: 
 
 ```sql
--- this gets you a formated basic day
+-- this gets you a formatted basic day
 CAST(login_date AS date) as "login date"
 ```
 
@@ -55,7 +56,7 @@ We wanted to create a dashboard that would represent the most important metrics 
 
 So it helped to think about the final data structure that I wanted for the dashboard, and then write the query around that. 
 
-To represent the metrics as a bar chart with the date on the x-axis, the main table would have dates as their anchor. From there, the individual actions would be grouped by the user's unique ID. Their individual interactions would then be listed out. I started by trying to make a table where there was a row for each day and unique ID, with a column per interaction type. 
+To represent the metrics as a bar chart with the date on the x-axis, the main table would have dates as their anchor. From there, the individual actions would be grouped by the user's unique ID. Their individual interactions would then be listed out. I started by trying to make a table where there was a row for each day and a unique ID, with a column per interaction type. 
 
 The first round query came back with a table structured like this: 
 
@@ -90,13 +91,11 @@ One thing to know about `CASE` is that it will evaluate with the first match, th
 
 Calculated fields will let you set exact names for metrics derived from the underlying data. For example, I wanted to do a running count calculation. This was easy enough, but then the resulting data takes on strange names in labels and tooltips. You can then copy over the calculation from the "shelf" and then creating a new calculated field with the name you want. 
 
-Use `SELECT DISTINCT` instead of `SELECT` to return fewer rows if you only need the unique values from a table.
-
 # Using Joins
 
 You can use a `JOIN` in conjunction with a `SELECT` statement to replace a column for your table. For example, I had some user interaction information in one table, assigned to their website ID. However, this ID is different from the global ID that I was using from other interactions. 
 
-The following solved this by using `SELECT` on the `JOIN` table. This wasn't super intuitive to me, but it sort of runs backwards, as the table created by the `JOIN` is what is being picked through with the `SELECT` statement. Esentially you create the full table structure and then choose out pieces with the `SELECT` statement. {{% marginnote %}}A bit weird for me since `SELECT` comes first{{% /marginnote %}}
+The following solved this by using `SELECT` on the `JOIN` table. This wasn't super intuitive to me, but it sort of runs backward, as the table created by the `JOIN` is what is being picked through with the `SELECT` statement. Essentially you create the full table structure and then choose out pieces with the `SELECT` statement. {{% marginnote %}}A bit weird for me since `SELECT` comes first{{% /marginnote %}}
 
 
 ```sql
@@ -111,6 +110,13 @@ WHERE "status" = 'Success'
 GROUP BY 1, 2, 3
 ```
 
+# Optimizations
+
+Use `SELECT DISTINCT` instead of `SELECT` to return fewer rows if you only need the unique values from a table.
+
+Tooling is important. Things would have likely proceeded much faster if I had access to SQL Workbench to properly explore the data objects. As it were, the virtual machine I was using refused to run SQL Workbench so I was stuck with writing queries in VS Code and testing them by running the query through Tableau. Not ideal. Not made any better by the fact that I didn't know how to use a data extract and was instead using Live queries.
+
+It took a bit to get set up to start the work. The first step was getting access to a virtual workstation. Then getting correct permissions to the Redshift data lake. Then getting a Tableau license and install permissions on the virtual workspace. Then getting the connector to Tableau working with the particularly finicky settings of the Redshift instance. A few weeks later, I was able to access the data objects within Tableau and start creating a workbook. Making this more turn-key would have likely saved about $50,000 in working time between client and contractor billable hours. This is particularly painful when the blocks boil down to simple things providing database permissions and paying for licenses. If there isn't a study on the 
 
 # Tableau Notes
 
@@ -122,12 +128,3 @@ Once the basic data is in a good place with a reasonable query, some other usefu
 - Calculated fields can return True/False values as well as typical calculations like sums or averages. 
 - Sets let you determine in/out classifications for data. 
 - By combining sets with calculated fields, I was able to create a combined field for segmenting the user base based on their interactions. For example, if users had interactions of multiple types, they were in multiple sets and the calculated field would allow comparisons for the True/False values to assign them a segment accordingly.
-
-# Optimizations
-
-
-Tooling is important. Things would have likely proceeded much faster if I had access to SQL Workbench to properly explore the data objects. As it were, the virtual machine I was using refused to run SQL Workbench so I was stuck with writing queries in VS Code and testing them by running the query through Tableau. Not ideal. Not made any better by the fact that I didn't know how to use a data extract and was instead using Live queries.
-
-It took a bit to get set up to actually start the work. First was getting access to a virtual workstation. Then getting correct permissions to the Redshift data lake. Then getting a Tableau license and install permissions on the virtual workspace. Then getting the connector to Tableau working with the particularly finicky settings of the Redshift instance. A few weeks later, I was able to access the data objects within Tableau and start creating a workbook. Making this more turn-key would have likely saved about $50,000 in working time between client and contractor billable hours. This is particularly painful when the blocks boil down to simple things providing database permissions and paying for licenses. If there isn't a study on the amount of time lost to these kinds of things in the general working world, I'm sure the results would be absolutely suprirsing to some and quantify the lost productivity in the very large numbers. 
-
-
