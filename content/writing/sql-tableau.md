@@ -42,8 +42,9 @@ Some other basics:
     SELECT a.date, a.id, a.interactions
     FROM your_table_with_a_very_long a
     ```
+- Use `SELECT DISTINCT` instead of `SELECT` to return fewer rows if you only need the unique values from a table.
 
-Working with dates is a bit complicated but here are some useful tricks: 
+Working with dates is a bit complicated but here is a useful tricks: 
 
 ```sql
 -- this gets you a formatted basic day
@@ -87,7 +88,7 @@ In this case, there was some user category metadata that was stored as different
 
 I could have accomplished this particular transform on the Tableau side using aliases, but `CASE` can handle more complicated logic. 
 
-One thing to know about `CASE` is that it will evaluate with the first match, then ignore any other logic that follows. 
+One thing to know about `CASE` is that it will evaluate with the first match, then ignore any other logic that follows.
 
 Calculated fields will let you set exact names for metrics derived from the underlying data. For example, I wanted to do a running count calculation. This was easy enough, but then the resulting data takes on strange names in labels and tooltips. You can then copy over the calculation from the "shelf" and then creating a new calculated field with the name you want. 
 
@@ -110,14 +111,6 @@ WHERE "status" = 'Success'
 GROUP BY 1, 2, 3
 ```
 
-# Optimizations
-
-Use `SELECT DISTINCT` instead of `SELECT` to return fewer rows if you only need the unique values from a table.
-
-Tooling is important. Things would have likely proceeded much faster if I had access to SQL Workbench to properly explore the data objects. As it were, the virtual machine I was using refused to run SQL Workbench so I was stuck with writing queries in VS Code and testing them by running the query through Tableau. Not ideal. Not made any better by the fact that I didn't know how to use a data extract and was instead using Live queries.
-
-It took a bit to get set up to start the work. The first step was getting access to a virtual workstation. Then getting correct permissions to the Redshift data lake. Then getting a Tableau license and install permissions on the virtual workspace. Then getting the connector to Tableau working with the particularly finicky settings of the Redshift instance. A few weeks later, I was able to access the data objects within Tableau and start creating a workbook. Making this more turn-key would have likely saved about $50,000 in working time between client and contractor billable hours. This is particularly painful when the blocks boil down to simple things providing database permissions and paying for licenses. If there isn't a study on the 
-
 # Tableau Notes
 
 Once the basic data is in a good place with a reasonable query, some other useful features of Tableau let you further manipulate things in the way you might want. 
@@ -128,3 +121,10 @@ Once the basic data is in a good place with a reasonable query, some other usefu
 - Calculated fields can return True/False values as well as typical calculations like sums or averages. 
 - Sets let you determine in/out classifications for data. 
 - By combining sets with calculated fields, I was able to create a combined field for segmenting the user base based on their interactions. For example, if users had interactions of multiple types, they were in multiple sets and the calculated field would allow comparisons for the True/False values to assign them a segment accordingly.
+
+# Optimizations
+
+Tooling is important. Things would have likely proceeded much faster if I had access to SQL Workbench to properly explore the data objects. As it were, the virtual machine I was using refused to run SQL Workbench so I was stuck with writing queries in VS Code and testing them by running the query through Tableau. Not ideal. Not made any better by the fact that I didn't know how to use a data extract and was instead using Live queries.
+
+It took a bit to get set up to start the work. The first step was getting access to a virtual workstation. Then getting correct permissions to the Redshift data lake. Then getting a Tableau license and install permissions on the virtual workspace. Then getting the connector to Tableau working with the particularly finicky settings of the Redshift instance. A few weeks later, I was able to access the data objects within Tableau and start creating a workbook. Making this more turn-key would have likely saved about $50,000 in working time between client and contractor billable hours. This is particularly painful when the blocks boil down to simple things providing database permissions and paying for licenses. If there isn't a study on the amount of time and money wasted on such things, there really should be. It would be eye-opening and likely it is in the _very large numbers_ as these things just pile up over time and across projects. 
+
