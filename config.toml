@@ -7,7 +7,7 @@ rssLimit = 23
 enableGitInfo = true
 footnoteReturnLinkContents = "↩"
 pygmentsCodeFences = true
-PygmentsStyle = "pygments"
+PygmentsStyle = "solarized-light"
 enableEmoji = true 
 
 [markup.goldmark.renderer]

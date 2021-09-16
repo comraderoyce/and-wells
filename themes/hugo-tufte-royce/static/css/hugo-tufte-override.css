@@ -45,3 +45,7 @@ li .highlight {
     width: auto;
     max-width: 100%;
 }
+
+th {
+    text-align: left;
+}
