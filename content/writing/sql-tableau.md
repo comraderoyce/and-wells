@@ -121,6 +121,7 @@ Once the basic data is in a good place with a reasonable query, some other usefu
 - Calculated fields can return True/False values as well as typical calculations like sums or averages. 
 - Sets let you determine in/out classifications for data. 
 - By combining sets with calculated fields, I was able to create a combined field for segmenting the user base based on their interactions. For example, if users had interactions of multiple types, they were in multiple sets and the calculated field would allow comparisons for the True/False values to assign them a segment accordingly.
+- Click on the Tooltip icon in the marks panel to adjust the titles, order and format of tooltips. 
 
 # Optimizations
 
