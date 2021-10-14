@@ -49,3 +49,11 @@ li .highlight {
 th {
     text-align: left;
 }
+
+li ul {
+    width: auto;
+}
+
+li {
+    line-height: 2rem;
+}
