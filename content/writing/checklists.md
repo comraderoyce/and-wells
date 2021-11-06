@@ -4,16 +4,16 @@ meta = false
 toc = false
 author = "Royce"
 title = "Checklists"
-date = "2021-10-14"
+date = "2021-10-07"
 category = "notes"
 description = "a list of checklists"
 url = "/checklists/"
 
 +++
 
-Checklists are heavily used in critical industries where small mistakes will lead to loss of life. For example, checklists are used heavily in aviation, astronomical engineering, and nuclear power plants.
+Checklists are used in critical industries where small mistakes will lead to loss of life. For example, checklists feature heavily in aviation, aerospace engineering, and nuclear power plants.
 
-Checklist use and format can supply lessosns for other industries that can benefit from eliminating errors in procedural tasks.  
+Other industries can use checklists to elimninate errors in procedural tasks.  
 
 Here are some example checklists.  
 
@@ -27,7 +27,7 @@ Here are some example checklists.
     - [Apollo 11 Launch Operations Checklist](https://history.nasa.gov/afj/ap11fj/a11-locindex.html)
     - [Apollo 11 CMP Solo Book](https://history.nasa.gov/afj/ap11fj/a11-cmpsbindex.html).
     - [Apollo 11 Alternate And Contingency Checklist](https://history.nasa.gov/afj/ap11fj/a11-accindex.html).
-    - Moon walk checklist on Neil Armstrong's glove cuff.
+    - [Moon walk checklist on Neil Armstrong's glove cuff](https://www.hq.nasa.gov/alsj/a11/ArmstrongEVgloveLchecklist.jpg)
     - [Apollo 12 Flight Checklist](https://www.hq.nasa.gov/alsj/a12/cuff12.html)
 
 ## Medicine
@@ -39,7 +39,6 @@ Here are some example checklists.
 ## Technology
 
 - [Checklist for Evaluating Emergency Procedures Used in Nuclear Power Plants (1981)](https://www.nrc.gov/docs/ML1025/ML102560010.pdf)
-
 - [Xerox Heuristic Evaluation Checklist (1993)](http://users.polytech.unice.fr/~pinna/MODULEIHM/ANNEE2010/CEIHM/XEROX%20HE_CKLST.pdf) is one of the 27 checklists from Making Computers People-Literate by Elaine Weiss.
 
 
@@ -50,11 +49,11 @@ Here are some example checklists.
 - [The pedantic checklist for changing your data model in a web application](https://rtpg.co/2021/06/07/changes-checklist.html) 
 - [leonar15/startup-checklist: A checklist for incorporation so you can get back to building your product, fundraising, etc.](https://github.com/leonar15/startup-checklist) 
 - [Release Checklist - ROOT](https://root.cern/for_developers/release_checklist/)
-5S Audit checklist used in lean manufacturing. 
+- 5S Audit checklist used in lean manufacturing. 
 - [CERN Onboarding Checklist](https://cds.cern.ch/record/2305294/files/My%20CERN%20onboarding%20checklist.pdf)
 
 
 ## Research on Checklists
 
-- [The implementation of a human factors engineering checklist for human–system interfaces upgrade in nuclear power plants - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0925753508001999)
-- [An Intervention to Decrease Catheter-Related Bloodstream Infections in the ICU (2006)](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FRDUUBS%2FX-xi10payQ.pdf?alt=media&token=c8d77b0a-5e5b-4d14-a996-596dd1802d68)
+- [The implementation of a human factors engineering checklist for human–system interfaces upgrade in nuclear power plants](https://www.sciencedirect.com/science/article/abs/pii/S0925753508001999)
+- [An Intervention to Decrease Catheter-Related Bloodstream Infections in the ICU (2006)](/pronovost2006.pdf)
