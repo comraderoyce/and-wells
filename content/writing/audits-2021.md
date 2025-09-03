@@ -5,12 +5,15 @@ toc = false
 author = "Royce"
 title = "More Audits on the Blockchain"
 date = "2021-11-06"
-category = "blockchain"
+categories = ["blockchain"]
 description = "An updated review of financial auditing practices using distributed ledger technology"
+collections = ['blockchain']
 
 +++
 
 This is an update and reflection on my prediction that blockchain technology would allow more transparent and precise audits.
+
+<!--more-->
 
 # 2018 Prediction
 

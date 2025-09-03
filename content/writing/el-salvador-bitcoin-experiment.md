@@ -2,6 +2,7 @@
 date = "2021-06-10"
 title = "El Salvador's Bitcoin Experiment"
 author = "Royce"
+collections = ["blockchain"]
 +++
 
 Yesterday [El Salvador passed a law](https://www.wsj.com/articles/el-salvador-becomes-first-country-to-approve-bitcoin-as-legal-tender-11623234476) that makes Bitcoin legal tender in the country. Here's a brief overview of some potential consequences.

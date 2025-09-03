@@ -7,6 +7,7 @@ title = "An Intro to Layer 2"
 date = "2022-03-10"
 category = "blockchain"
 description = "Explaining the basics of Layer 2 chains"
+collections = ["blockchain"]
 
 +++
 

@@ -12,7 +12,7 @@ I will be hosting a [panel][panel] at SXSW on how to use next-generation technol
 
 Joining me will be Kilian Moote from [Humanity United][HU], Sarah Potts from [Thorn][Thorn] and Bennett Wetch from [Fair Trade Certified][FTC].
 
-There are many mission-based organizations that are exploring applications of new technologies to improve the world. The folks that are joining me on the panel are amazing examples of this. Humanity United team is funding [Provenance][Provenance], a [blockchain][blockchains] initiative to track products through the supply chain. Thorn is using semantic analysis to prevent child abuse on social media platforms. FairTrade Certified is leveraging cutting edge DevOps and Agile management practices to connect consumers with responsibly-sourced goods.
+There are many mission-based organizations that are exploring applications of new technologies to improve the world. The folks that are joining me on the panel are amazing examples of this. Humanity United team is funding [Provenance][Provenance], a blockchain initiative to track products through the supply chain. Thorn is using semantic analysis to prevent child abuse on social media platforms. FairTrade Certified is leveraging cutting edge DevOps and Agile management practices to connect consumers with responsibly-sourced goods.
 
 We will look at how organizations can decide if new technologies will make an impact. and how we know whether our efforts are making the desired impact. 
 
@@ -23,7 +23,6 @@ Companies are learning that all organizations need to take social good in to acc
 Our day of programming is called Lean Digital Speedway. In keeping with the theme, I want to see how we can move fast and fix things. Hope to see you there. 
 
 [panel]: https://us.ciandt.com/blog-a-better-world-next-gen-tech-for-social-good?utm_source=royce&utm_medium=blog&utm_campaign=sxsw18speedway&utm_content=blogpost4
-[blockchains]: /blockchains
 [HU]: https://humanityunited.org
 [Thorn]: https://wearethorn.org
 [FTC]: https://fairtradecertified.org

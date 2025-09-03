@@ -13,6 +13,12 @@
     </p>
   {{ end }}
 
+  {{ if .GitInfo }}
+    <div class="copyright"> 
+      Last updated at commit <a class="commit-note" target="_blank" href="{{ .Site.Params.blogRepo }}commit/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>
+    </div>
+  {{ end }} 
+
 	<div class="copyright">
 	<p>
     {{ with .Site.Params.copyright }}
@@ -24,5 +30,6 @@
     {{end}}
   </p>
 </div>
+
 </footer>
 {{ partial "body.includes.html" . }}

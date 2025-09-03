@@ -7,8 +7,13 @@ title = "A War for the Gauges"
 date = "2022-01-02"
 category = "blockchain"
 description = "How the Curve wars is spreading to other gauge protocols"
+collections = ["blockchain"]
 
 +++
+
+This is a short history of the Curve Wars and a review of how gaugue tokenomics has evolved. 
+
+<!--more-->
 
 # The old blue king
 

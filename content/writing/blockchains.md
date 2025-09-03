@@ -3,6 +3,7 @@ date = "2017-08-01"
 title = "Some notes on blockchains"
 author = "Royce"
 meta = true
+collections = ["blockchain"]
 
 +++
 

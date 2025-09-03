@@ -2,6 +2,7 @@
 date = "2021-01-17"
 title = "Three Blockchain Projects I'm Watching in 2021"
 author = "Royce"
+collections = ['blockchain']
 
 +++
 

@@ -4,6 +4,7 @@ Description = "Here is how blockchain technology could allow transparent audits 
 Tags = ["notes", "products", "blockchain"]
 Categories = ["notes"]
 Date = "2018-03-20"
+collections = ["blockchain"]
 +++
 
 Here is how blockchain technology could offer transparent audits of transactions with various use cases and end-user benefits. 

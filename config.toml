@@ -16,6 +16,7 @@ enableEmoji = true
 [taxonomies]
   tag = "tags"
   category = "categories"
+  collection = "collections"
 
 [outputs]
   home = ["HTML", "RSS"]

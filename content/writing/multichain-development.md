@@ -5,9 +5,9 @@ toc = false
 author = "Royce"
 title = "Multichain Development with Hardhat and Remix"
 date = "2021-11-19"
-category = "blockchain"
+categories = ["blockchains"]
 description = "How to use Hardhat and Remix to develop and test on Fantom and other EVM blockchains"
-
+collections = ["blockchain"]
 +++
 
 Many blockchains are EVM compatible and you can deploy contracts written in Solidity to these chains. Here is how to do local development and testing for basic contracts on other chains using Hardhat and Remix.

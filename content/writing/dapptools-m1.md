@@ -5,7 +5,8 @@ toc = false
 author = "Royce"
 title = "How to Install dapptools on an M1 Mac"
 date = "2021-08-07"
-category = "blockchain"
+categories = ["blockchains"]
+collections = ["blockchain"]
 
 +++
 
